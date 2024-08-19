@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&family=Yaldevi:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F8EDE3;
+}
+header{
+    background-color: #DFD3C3;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+}
+header img{
+    height: 55px;
+    width: auto;
+}
+header input{
+    background-color: #D0B8A8;
+    height: 35px;
+    width: 300px;
+    margin-right: 25px;
+    border: 0px;
+    border-radius: 20px;
+    color: #8D493A;
+    padding-left: 10px;
+    outline: 0;
+    font-family: "Rancho", cursive;
+}
+.background{
+    background-image: url(background_image.jpg);
+    height: 91%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background:none;
+    background-size: cover;
+    position: relative;
+}
+.background::after{
+    content: '';
+    position: absolute;
+    background-color: #dfd3c396;
+    inset: 0;  
+}
+.background img{
+    width: 100%;
+}
+.text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    text-align: center;
+    width: 30%;
+    color: #8D493A;
+    transform: translate(-50%, -50%);
+    height: 437px;
+    font-family: "Rancho", cursive;
+}
+.text img{
+    height: 50px;
+    width: auto;
+}
+.text h1{
+    font-size: 100px;
+    font-family: "Rancho", cursive;
+    font-weight: 500;
+}
+.text p{
+    font-size: 25px;
+    font-family: "Rancho", cursive;
+}
+.text h3{
+    font-size: 40px;
+    padding-top: 44%;
+    font-family: "Rancho", cursive;
+    font-weight: 500;
+}
+.cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding-left: 110px;
+    grid-template-rows: 50% 45%;
+    height: 165vh;
+}
+.card{
+    height: 500px;
+    width: 400px;
+    background-color: #D0B8A8;
+    border-radius: 24px;
+    box-shadow: 6px 7px 20px 0px #535050;
+   
+}
+.card img{
+    height: 280px;
+    width: 371px;
+    object-fit: cover;
+    margin: 14px 15px 5px 15px;
+    border-radius: 16px;
+}
+.card h2{
+    font-size: 35px;
+    margin-left: 14px;
+    color: #8D493A;
+    margin-bottom: 5px;
+    font-family: "Rancho", cursive;
+    font-weight: 500;
+}
+.card p{
+    padding: 0px 14px 0px 14px;
+    font-size: 16px;
+    color: #8D493A;
+    height: 105px;
+    font-family: "Yaldevi", sans-serif;
+}
+button{
+    background-color: #8D493A;
+    height: 40px;
+    width: 120px;
+    border: 0px;
+    border-radius: 20px;
+    color: #DFD3C3;
+    margin: 0px 140px;
+    font-family: "Yaldevi", sans-serif;
+}
+footer{
+    height: 500px;
+    width: 100%;
+    background-color: #D0B8A8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footertext{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+    font-family: "Rancho", cursive;
+    color: #8D493A;
+}
+.footerinput{
+    height: 500px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 385px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px 0px 40px;
+}
+.hline{
+    height: 400px;
+    background-color: #8D493A;
+    width: 1px;
+}
+.footerinput #email{
+    width: 360px;
+    height: 35px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #e2dcd3;
+    outline: 0px;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Rancho", cursive;
+}
+.footerinput #FeedBack{
+    height: 200px;
+    width: 360px;
+    border: 0px;
+    background-color: #e2dcd3;
+    border-radius: 5px;
+    outline: 0px;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Rancho", cursive;
+
+}
+.footerinput #submit{
+    color: #DFD3C3;
+    height: 40px;
+    width: 360px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: #8D493A;
+    margin: 10px;
+    font-family: "Yaldevi", sans-serif;
+}
+.bigCard{
+    margin: 50px 75.963px;
+    height: inherit;
+    width: 90%;
+    background-color: #D0B8A8;
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: overlay;
+}
+.Displayimage img{
+    height: 80vh;
+    border-radius: 30px;
+    padding: 15px;
+}
+.DisplayText{
+    height: 76vh;
+    margin: 15px;
+    padding: 15px;
+}
+.DisplayText h1{
+    font-family: 'Rancho';
+    color: #8D493A;
+    font-size: 48px;
+    font-weight: 500;
+}
+.DisplayText p{
+    font-family: 'Yaldevi';
+    font-size: 17px;
+    color: #8D493A;
+    margin-top: 5px;
+}
+.DisplayText h3{
+    font-size: 35px;
+    font-family: 'Rancho';
+    color: #8D493A;
+    font-weight: 500;
+    margin-top: 15px;
+}
+li{
+    font-size: 17px;
+    font-family: 'Yaldevi';
+    color: #8D493A;
+    margin-left: 20px;
+}
+#viewrecipe{
+    margin-right: 0px;
+    margin-top: inherit;
+    margin-left: 10px;
+    width: 230px;
+}
+span{
+    color: #8D493A;
+    font-size: 15px;
+    font-family: 'Yaldevi';
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #DFD3C3;
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D0B8A8;
+    height: 10px;
+    border-radius: 10px;
+}
+a{
+    color: #D0B8A8;
+    font-family: 'Yaldevi';
+    text-decoration: none;   
+}
+.DisplayText1 h3{
+    font-size: 35px;
+    font-family: 'Rancho';
+    color: #8D493A;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.displaytext2 h3{
+    font-size: 35px;
+    font-family: 'Rancho';
+    color: #8D493A;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.DisplayText1{
+    width: 30vw;
+    padding: 15px;
+    height: inherit;
+}
+.bigCard1{
+    margin: 50px 75.963px;
+    height: inherit;
+    width: 90%;
+    background-color: #D0B8A8;
+    border-radius: 24px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: overlay;
+}
+.displaytext2{
+    padding: 15px;
+}
+p{
+    color: #8D493A;
+    font-family: 'Rancho';
+}
